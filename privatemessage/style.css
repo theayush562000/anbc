@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	height: 100vh;
+	background: rgba(0,0,100,0.4);
+}
+.welcome-msg {
+	position: relative;
+	text-align: center;
+	font-family: monospace;
+	color: #fff;
+	top: 150px;
+}
+.welcome-msg h1 {
+	font-size: 80px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+}
+.dropbtn {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn:hover, .dropbtn:focus {
+		background-color: tomato;
+	}
+.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown a:hover {
+		background-color: #ddd;
+	}
+.show {
+		display: block;
+	}
+	/* For ENJOY */
+.dropbtn1 {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn1:hover, .dropbtn1:focus {
+		background-color: tomato;
+	}
+.dropdown1 {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content1 {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content1 a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown1 a:hover {
+		background-color: #ddd;
+	}
+.show1 {
+		display: block;
+	}
+
+/*FOR EDUCATION */
+.dropbtn2 {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn2:hover, .dropbtn2:focus {
+		background-color: tomato;
+	}
+.dropdown2 {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content2 {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content2 a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown2 a:hover {
+		background-color: #ddd;
+	}
+.show2 {
+		display: block;
+	}
+/* FOR FOOD DELIVERY */
+.dropbtn3 {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn3:hover, .dropbtn3:focus {
+		background-color: tomato;
+	}
+.dropdown3 {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content3 {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content3 a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown3 a:hover {
+		background-color: #ddd;
+	}
+.show3 {
+		display: block;
+	}
+/* FOR NEWS MEDIA */
+.dropbtn4 {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn4:hover, .dropbtn4:focus {
+		background-color: tomato;
+	}
+.dropdown4 {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content4 {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content4 a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown4 a:hover {
+		background-color: #ddd;
+	}
+.show4 {
+		display: block;
+	}
+/*FOR SHOPING */
+.dropbtn5 {
+		background-color: transparent;
+		color: white;
+		padding: 16px;
+		font-size: 16px;
+		border: double;
+		cursor: pointer;
+		border-radius: 12px;
+		transition: 0.9s;
+	}
+.dropbtn5:hover, .dropbtn5:focus {
+		background-color: tomato;
+	}
+.dropdown5 {
+		position: relative;
+		display: inline-block;
+	}
+.dropdown-content5 {
+		display: none;
+		position: absolute;
+		background-color: #f1f1f1;
+		min-width: 160px;
+		overflow: auto;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+.dropdown-content5 a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+	}
+.dropdown5 a:hover {
+		background-color: #ddd;
+	}
+.show5 {
+		display: block;
+	}
+.image {
+		width: 80px;
+		height: 30px;
+	}
